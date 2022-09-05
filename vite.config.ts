@@ -9,6 +9,7 @@ import svgLoader from 'vite-svg-loader';
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: "https://silverflin.netlify.app/",
   server: {
     port: 4000,
   },
