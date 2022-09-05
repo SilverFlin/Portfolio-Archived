@@ -21,7 +21,7 @@ import { NCarousel, NCarouselItem } from 'naive-ui';
       :autoplay="true"
     >
       <n-carousel-item :style="{ width: '60%' }">
-        <router-link to="/home/test">
+        <router-link to="/test">
           <img
             class="carousel-img"
             src="https://naive-ui.oss-cn-beijing.aliyuncs.com/carousel-img/carousel1.jpeg"

@@ -2,11 +2,11 @@ import { createRouter, createWebHistory } from 'vue-router';
 
 const routes = [
   {
-    path: '/home',
+    path: '/',
     component: () => import('/@/pages/Index.vue'),
   },
   {
-    path: '/home/test',
+    path: '/test',
     component: () => import('/@/pages/Test.vue')
   }
 ];
@@ -14,5 +14,5 @@ const routes = [
 export const Router = createRouter({
   scrollBehavior: () => ({ left: 0, top: 0 }),
   history: createWebHistory(),
-  routes: routes,
+  routes,
 });
