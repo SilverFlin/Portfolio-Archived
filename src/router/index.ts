@@ -4,10 +4,12 @@ const routes = [
   {
     path: '/',
     component: () => import('/@/pages/Index.vue'),
+    meta: { transition: 'slide-left' },
   },
   {
     path: '/test',
-    component: () => import('/@/pages/Test.vue')
+    component: () => import('/@/pages/Test.vue'),
+    meta: { transition: 'slide-right' },
   }
 ];
 
