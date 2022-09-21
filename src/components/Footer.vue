@@ -39,7 +39,7 @@
       >{{ 'Hecho por' }}
       <a
         class="footer-link text-cyan-400 hover:text-cyan-500"
-        href="https://github.com/alvarosabu/vitesome"
+        href="https://github.com/SilverFlin"
         rel="noreferrer"
         target="_blank"
         >Luis Toledo</a
